@@ -1,0 +1,3 @@
+interface IGallery {
+  images: string[]
+}

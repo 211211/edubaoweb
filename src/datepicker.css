@@ -1,0 +1,88 @@
+[class*='ant-calendar-'] {
+    color: #10527A;
+}
+
+input.ant-calendar-picker-input .ant-input {
+    border: none;
+}
+
+.ant-calendar-header {
+    background-color: #10527A;
+    border-bottom: none;
+}
+
+.ant-calendar-header a[role='button'] {
+    color: #F9FAFF;
+}
+
+.ant-calendar-picker-container, 
+.ant-calendar, 
+.ant-calendar-date-panel,
+.ant-calendar-body {
+    border-radius: 15px;
+}
+
+.ant-calendar-date-panel {
+    border: 2px solid #10527A;
+}
+
+.ant-calendar-body {
+    background-color: #F9FAFF;
+    color: #10527A;
+
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+table.ant-calendar-table thead {
+    background: #10527A;    
+}
+
+.ant-calendar-column-header-inner {
+    color: #F9FAFF;
+}
+
+.ant-calendar-selected-day .ant-calendar-date {
+    background: #10527A;
+    color: #F9FAFF;
+}
+
+.ant-calendar-today .ant-calendar-date {
+    border-radius: 50%;
+}
+
+.ant-calendar-date[aria-selected='true'] {
+    border-radius: 50%;
+}
+
+th.ant-calendar-column-header {
+    margin-right: 45px;
+}
+
+.ant-calendar-column-header:last-child {
+    margin-right: 0;
+    padding: 0;
+}
+
+.ant-calendar-date {
+    font-size: 14px;
+    line-height: 19px;
+    height: 30px;
+    width: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-calendar-date:hover {
+    border-radius: 50%;
+    background: #10527A;
+    color: #F9FAFF;
+    cursor: pointer;
+}
+
+.ant-calendar-tbody tr {
+    height: 36px;
+}
