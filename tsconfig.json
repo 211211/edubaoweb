@@ -41,7 +41,6 @@
     "node_modules",
     "build",
     "scripts",
-    "src/legacy",
     "src/stories"
   ]
 }

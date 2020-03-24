@@ -9,7 +9,6 @@
   "linterOptions": {
     "exclude": [
       "src/stories/**",
-      "src/legacy/**",
       "src/serviceWorker.ts",
       "src/setupTests.ts"
     ]
