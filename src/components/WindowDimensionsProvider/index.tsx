@@ -1,4 +1,4 @@
-import React, {createContext, useContext, useEffect, useState} from 'react'
+import React, { createContext, useContext, useEffect, useState } from 'react'
 
 export const WindowDimensionsCtx = createContext({
   height: 0,
@@ -6,8 +6,8 @@ export const WindowDimensionsCtx = createContext({
 })
 
 const windowDims = () => ({
-  height: window.innerHeight,
-  width: window.innerWidth,
+  height: typeof window !== `undefined` ? window.innerHeight : 0,
+  width: typeof window !== `undefined` ? window.innerWidth : 0,
 })
 
 interface IWindowDimensionsProvider {
