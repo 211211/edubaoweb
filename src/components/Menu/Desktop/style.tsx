@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import {Button} from 'components'
 import {color, spacing} from 'themes'
 import {media} from 'utils'
-import logo from 'logo.svg'
+import {logo} from 'images'
 
 export const Wrapper = styled.header`
   width: 100%;

@@ -28,7 +28,7 @@ import {
   TextSymmetricalLists,
   DatePicker,
   Footer,
-} from 'components'
+} from '../components'
 
 const LandingPage = () => {
   return (

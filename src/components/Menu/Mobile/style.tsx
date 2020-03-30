@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 import {color, spacing} from 'themes'
-import logo from 'logo.svg'
+import {logo} from 'images'
 
 export const Wrapper = styled.header``
 

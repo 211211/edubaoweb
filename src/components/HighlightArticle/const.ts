@@ -1,4 +1,4 @@
-import image from './images/highlight.webp'
+import image from './images/highlight.png'
 
 export const INFO = {
   title: 'It’s knowledge, checklists and chat support all in one.',

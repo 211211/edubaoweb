@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 import {
     SomethingExtra,
     OurPresent,
-} from 'components'
+} from '../components'
 
 const SignUpPage = () => {
     return (

@@ -9,7 +9,7 @@ import {
   Partners,
   MoreArticles,
   FindOurMore,
-} from 'components'
+} from '../components'
 
 export const INFO = {
   title: 'Our services were awarded with',

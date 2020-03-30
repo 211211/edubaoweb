@@ -4,7 +4,7 @@ import {
   BuyRegisterComponent,
   AppDownload,
   BuyRegisterUpgradeSelection,
-} from 'components'
+} from '../components'
 
 const Page = () => {
   return (
