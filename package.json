@@ -29,6 +29,7 @@
     "customize-cra": "^0.9.1",
     "gatsby": "^2.20.7",
     "gatsby-cli": "^2.11.2",
+    "gatsby-plugin-antd": "^2.2.0",
     "gatsby-plugin-freshchat": "^1.0.0-rc1",
     "gatsby-plugin-layout": "^1.2.1",
     "gatsby-plugin-manifest": "^2.3.3",

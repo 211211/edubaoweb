@@ -7,6 +7,9 @@ module.exports = {
             resolve: `gatsby-plugin-typescript`,
         },
         {
+            resolve: `gatsby-plugin-antd`,
+        },
+        {
             resolve: `gatsby-plugin-typescript-checker`,
         },
         {
