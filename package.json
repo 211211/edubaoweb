@@ -55,13 +55,13 @@
     "zxcvbn": "^4.4.2"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public",
-    "lint": "tslint -c tslint.json 'src/**/*.ts*'"
+    "lint": "tslint -c tslint.json 'src/**/*.ts*'",
+    "start": "gatsby develop -H 0.0.0.0 -o",
+    "storybook": "start-storybook -p 9000 -c .storybook",
+    "build": "gatsby build",
+    "build-storybook": "build-storybook -c .storybook -o storybook",
+    "serve": "gatsby serve -o -p 8080",
+    "clean": "gatsby clean"
   },
   "eslintConfig": {
     "extends": "react-app"
