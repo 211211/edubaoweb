@@ -57,8 +57,8 @@ export const SituationButton = styled((props: any) => <Button {...props} />)`
   margin-bottom: 16px;
 
   &&:hover {
-    background: ${themeColor.mainBlue}
-    color: ${themeColor.white}
+    background: ${themeColor.mainBlue};
+    color: ${themeColor.white};
   }
 `
 

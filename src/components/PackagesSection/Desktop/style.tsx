@@ -65,7 +65,7 @@ export const SituationButton = styled((props: any) => <Button {...props} />)`
     &&:hover {
       background: ${themeColor.mainBlue} 0% 0% no-repeat padding-box;
       box-shadow: 0px 0px 16px #0000000B;
-      color: ${themeColor.white}
+      color: ${themeColor.white};
       opacity: 1;
     }
   }
@@ -84,7 +84,7 @@ export const PackageWrapper = styled.div`
 
   > div {
     margin-right: 31px;
-    margin-top: 31px
+    margin-top: 31px;
 
     &:last-child: {
       margin-right: 0;

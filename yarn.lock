@@ -8215,6 +8215,14 @@ gatsby-plugin-layout@^1.2.1:
   dependencies:
     "@babel/runtime" "^7.8.7"
 
+gatsby-plugin-less@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-less/-/gatsby-plugin-less-3.1.1.tgz#2745ed3955589ab88d8e4f45c2ae0b8b73620cb9"
+  integrity sha512-H0LQXy2DpwD1UW3bEuE8RHk2yNfOcZGFjzYH9URPUAzxuOo6bhPyNxKJ8tLcvarqwYiJIWFFivDMv0IqgBJ16Q==
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    less-loader "^5.0.0"
+
 gatsby-plugin-manifest@^2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.3.3.tgz#119b9e648428a0db8979d577d2fdb20a9f3c18b7"
@@ -10748,6 +10756,23 @@ less@^3.10.3:
   resolved "https://registry.yarnpkg.com/less/-/less-3.10.3.tgz#417a0975d5eeecc52cff4bcfa3c09d35781e6792"
   dependencies:
     clone "^2.1.2"
+  optionalDependencies:
+    errno "^0.1.1"
+    graceful-fs "^4.1.2"
+    image-size "~0.5.0"
+    mime "^1.4.1"
+    mkdirp "^0.5.0"
+    promise "^7.1.1"
+    request "^2.83.0"
+    source-map "~0.6.0"
+
+less@^3.11.1:
+  version "3.11.1"
+  resolved "https://registry.yarnpkg.com/less/-/less-3.11.1.tgz#c6bf08e39e02404fe6b307a3dfffafdc55bd36e2"
+  integrity sha512-tlWX341RECuTOvoDIvtFqXsKj072hm3+9ymRBe76/mD6O5ZZecnlAOVDlWAleF2+aohFrxNidXhv2773f6kY7g==
+  dependencies:
+    clone "^2.1.2"
+    tslib "^1.10.0"
   optionalDependencies:
     errno "^0.1.1"
     graceful-fs "^4.1.2"
